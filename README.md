@@ -1,3 +1,15 @@
+> ⚠️ **This repository has been archived and superseded.**
+>
+> Development has moved to **[vbmobile/AMADocScanner](https://github.com/vbmobile/AMADocScanner)**.
+>
+> - **New SPM URL:** `https://github.com/vbmobile/AMADocScanner`
+> - **Last frozen version here:** `4.1.14`
+> - **Latest version:** see the new repo's [releases page](https://github.com/vbmobile/AMADocScanner/releases).
+>
+> Consumers should update their `Package.swift` `.package(url:)` to the new URL. See the new repo's README for migration guidance.
+>
+> ---
+
 # AMADocScanneriOS
 
 Native MRZ document scanning engine for iOS. Provides low-level document detection and MRZ extraction capabilities.
