@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "AMADocScanneriOS",
+    name: "AMADocScanner",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "AMADocScanneriOS",
-            targets: ["AMADocScanneriOS"]
+            name: "AMADocScanner",
+            targets: ["AMADocScanner"]
         ),
     ],
     targets: [
@@ -19,7 +19,7 @@ let package = Package(
             checksum: "88fb64fc77e94676f483958cbcaf76bfac9f7be4e56edc5aeb332ca8225fa3df"
         ),
         .target(
-            name: "AMADocScanneriOS",
+            name: "AMADocScanner",
             dependencies: ["docscanner_ios"],
             path: "Sources"
         )

@@ -16,7 +16,7 @@ Native MRZ document scanning engine for iOS. Provides low-level document detecti
 1. Go to **File > Add Package Dependencies**
 2. Enter the repository URL:
    ```
-   https://github.com/vbmobile/AMADocScanneriOS
+   https://github.com/vbmobile/AMADocScanner
    ```
 3. Select the desired version
 
@@ -26,21 +26,21 @@ Add the dependency to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/vbmobile/AMADocScanneriOS")
+    .package(url: "https://github.com/vbmobile/AMADocScanner")
 ]
 ```
 
-Then add `AMADocScanneriOS` to your target's dependencies:
+Then add `AMADocScanner` to your target's dependencies:
 
 ```swift
 .target(
     name: "YourTarget",
     dependencies: [
-        .product(name: "AMADocScanneriOS", package: "AMADocScanneriOS")
+        .product(name: "AMADocScanner", package: "AMADocScanner")
     ]
 )
 ```
 
 ## License
 
-See [LICENSE.md](LICENSE.md) for details. Copyright Vision-Box S.A.
+See [LICENSE.md](LICENSE.md) for details. Copyright Amadeus.
